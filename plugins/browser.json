@@ -42,6 +42,27 @@
         },
         "cordova-plugin-globalization": {
             "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.phonegap.ventilapp"
         }
     },
     "dependent_plugins": {
