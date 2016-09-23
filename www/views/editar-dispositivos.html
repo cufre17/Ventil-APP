@@ -5,11 +5,11 @@
     <title>Ventil-APP</title>
     
     <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600" rel="stylesheet" type="text/css">    
-    <link href="../../css/style.css" rel="stylesheet" type="text/css">
-    <link href="../../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
     
      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">					</script>
-      <script src="../../js/index.js"></script>
+      <script src="../js/index.js"></script>
 </head>
 
 <body>
@@ -29,7 +29,29 @@
     
     
     <!-- Principal (Vista)-->
-    
+    <label class="titulo">
+            Editar dispositivo
+        </label> 
+        <div class="form-dispositivo">       		           
+            <div class="tab-content">            
+                <div id="signup" style="display: block;">
+                    <form action="/" method="post">    
+                        <div class="field-wrap">
+                            <h1>Seleccione dispositivo</h1>
+                                <select>
+                                    <option>Electrolux G223</option>
+                                    <option>Philips P225</option>
+                                    <option>Peabody F532</option>
+                                </select>                        
+                            <h1>Nuevo nombre</h1>
+                                <input type="text"/>   
+                            <h1>Velocidad por defecto</h1>
+                            <h1>Iluminación por defecto</h1>	                        
+                        </div>            
+                    </form>
+                </div>
+            </div>
+         </div>
     <!-- End Principal (Vista)-->
 
 </body>
